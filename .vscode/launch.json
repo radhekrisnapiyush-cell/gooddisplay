@@ -1,0 +1,31 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "healthy2 (Infinix Wireless)",
+      "request": "launch",
+      "type": "dart",
+      "cwd": "healthy2",
+      "program": "healthy2/lib/main.dart",
+      "deviceId": "100.112.121.3:5555",
+      "preLaunchTask": "📱 Connect Phone (One Click)"
+    },
+    {
+      "name": "healthy2 (Infinix USB)",
+      "request": "launch",
+      "type": "dart",
+      "cwd": "healthy2",
+      "program": "healthy2/lib/main.dart",
+      "deviceId": "032872487K000144",
+      "preLaunchTask": "📱 Connect Phone (One Click)"
+    },
+    {
+      "name": "healthy2 (Auto Select)",
+      "request": "launch",
+      "type": "dart",
+      "cwd": "healthy2",
+      "program": "healthy2/lib/main.dart",
+      "preLaunchTask": "📱 Connect Phone (One Click)"
+    }
+  ]
+}

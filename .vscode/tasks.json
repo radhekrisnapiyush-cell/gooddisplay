@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "📱 Connect Phone (One Click)",
+      "type": "shell",
+      "command": "/home/codespace/sync_phone.sh",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "clear": true
+      }
+    },
+    {
+      "label": "🔌 Disconnect Phone (One Click)",
+      "type": "shell",
+      "command": "/home/codespace/disconnect_phone.sh",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "clear": true
+      }
+    }
+  ]
+}
